@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{   /* <html> is the root element. And the whole body's font size change w.r.t it.*/
+    font-size:62.5%; /* change 1rem=10px instead of 16px;*/
+}
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0,0%,94%);
+    display: grid;
+    place-items: center;
+}
+
+.center_div{
+    min-width: 50vw;
+    height:40vh;
+    color:black;
+    text-shadow: 0 0 2rem black;
+    font-size: 7rem;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
